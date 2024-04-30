@@ -10,21 +10,20 @@ function atualizarTotal() {
     var cupom = document.getElementById('cupom').value;
     var desconto = 0;
 
-    // Verificar se o cupom é válido e definir o desconto correspondente
+    
     if (cupom === "FIAP2024") {
-        desconto = 10; // 10% de desconto para o cupom "FIAP2024"
+        desconto = 10; 
     }
     
-    // Cálculo do total sem desconto
+   
     var totalSemDesconto = preco * quantidade;
     
-    // Cálculo do desconto
+    
     var descontoValor = (totalSemDesconto * desconto) / 100;
     
-    // Total com desconto
+    
     var totalComDesconto = totalSemDesconto - descontoValor;
     
-    // Exibir os valores
     document.getElementById('total').innerText = "R$" + totalComDesconto.toFixed(2);
     document.getElementById('desconto-aplicado').innerText = "R$" + descontoValor.toFixed(2);
 }
