@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VINHERIA AGNELLO</title>
+    <link rel="icon" href="Vinheria.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- <h1> Vinheria Agnello </h1>
+    <h3> Descubra o sabor da vida em cada taça </h3> -->
+
+    </div>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <a href="/site/index.html"> <img src="Vinheria.png" alt="logo da vinheria"></a>
+                </div>
+                <div class="search-box">
+                    <a href="/site/contato.html">Contato</a>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </div>
+        </main>
+    </header>
+    <section>
+        <div class="secao-pergola">
+
+            <img src="transferir.png" alt="pergola">
+            <div onclick="favoritar()">
+                <div class="favVazio">
+                    <img src="favoritovazio.png" alt="favorito vazio">
+                </div>
+                <div class="favPreenchido">
+                    <img src="favoritopreenchido.png" alt="favorito vazio">
+                </div>
+
+            </div>
+            <div class="pergola-info">
+                <h1>Pérgola</h1>
+                <p>R$200,00</p>
+                <label for="quantidade">Quantidade</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="50" onchange="atualizarTotal()">
+                <button onclick="comprar()">COMPRAR</button>
+                <div>
+                    <label for="total">Total</label>
+                    <h1 id="total"></h1>
+                </div>
+                <label for="cupom">Cupom</label>
+                <input type="text" id="cupom" name="cupom" onchange="atualizarTotal()">
+                <div>
+                    <label for="desconto-aplicado">Desconto Aplicado</label>
+                    <h1 id="desconto-aplicado"></h1>
+                </div>
+                <div>
+                    <a href="/site/pergolaInfo.html">Sugestões de acompanhamento</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class='avalia'>
+        <h1>Avaliações</h1>
+        <div id="comments-container">
+            <!-- Área de exibição dos comentários -->
+        </div>
+        <form id="comment-form">
+            <input type="text" id="comment-input" placeholder="Digite seu comentário...">
+            <select id="comment-rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
