@@ -88,7 +88,7 @@ function entrar(event) {
 
     if (login === "1234" && senha === "1234") {
         alert("logado com sucesso");
-        window.location.href = '../site/index.html';
+        window.location.href = '../homepage.html';
 
     }
     else {
@@ -98,7 +98,7 @@ function entrar(event) {
 
 function sim(event) 
 {
-window.location.href = '../site/index.html';
+window.location.href = '../homepage.html';
 }
 
 function não(event) {
