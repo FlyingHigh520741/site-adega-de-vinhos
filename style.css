@@ -17,6 +17,16 @@
     justify-content: space-between; 
     align-items: center; 
 }
+.header-index{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+.logo-index img {
+    width: 120px;
+    height: auto;
+}
 
 .logo img {
     width: 120px;
@@ -35,7 +45,7 @@
     color: white;
 }
 
-.search-box input[type="text"] {
+/* .search-box input[type="text"] {
     flex: 1;
     padding: 8px;
     border-radius: 5px;
@@ -52,7 +62,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-}
+} */
 .search-box i {
     
     font-size: 20px; 
@@ -135,3 +145,4 @@
 #comment-form button:hover {
     background-color: #0056b3;
 }
+
