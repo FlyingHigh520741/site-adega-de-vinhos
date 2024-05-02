@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .menu-principal {
@@ -8,8 +9,8 @@
     width: 100%;
     background-color: #9F3C3C;
     padding: 10px;
-    box-sizing: border-box;
-   
+    
+    
 }
 
 .header-1 {
@@ -93,6 +94,8 @@
     grid-auto-flow: column;
     columns: auto;
     margin: 82px;
+ 
+
 }
 
 .secao-pergola img{

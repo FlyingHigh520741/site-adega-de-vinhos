@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login agnello</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="Vinheria.png">
+    <title>Login Vinheria Agnello</title>
 </head>
 <body>
-    <h1>Faça seu login</h1>
-    <label for="login">Usuario:</label><br>
-    <input type="number" name="login" id="login"><br>
-    <label for="senha">Senha:</label><br>
-    <input type="number" name="senha" id="senha"><br>
-    <button class="submit" onclick="entrar()">Entrar</button>
+    
+    <div class="container">
+        <img src="Vinheria.png" alt="logo da vinheria" class="logo">
+        <h1>Faça seu login</h1>
+        <form>
+            <label for="login">Usuário:</label><br>
+            <input type="text" name="login" id="login"><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha"><br>
+            <button type="button" class="submit" onclick="entrar()">Entrar</button>
+        </form>
+    </div>
 
     <script src="script.js"></script>
 </body>
