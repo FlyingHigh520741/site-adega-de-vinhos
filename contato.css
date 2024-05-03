@@ -1,0 +1,30 @@
+.pergola-info{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #9F3C3C;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 20px;
+    
+
+}
+
+.logo a img {
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    align-items: center;
+
+}
