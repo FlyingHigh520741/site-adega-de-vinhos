@@ -268,10 +268,6 @@ input[type="password"] {
 }
 
  
-.logo-contato a img {
-    width: 150px;
-    height: auto;
-}
 
 .pergola-info > h1{
     align-items: center;
@@ -298,4 +294,18 @@ input[type="password"] {
     align-items: center;
     color: #fafafa;
     margin-top: 100px;
+}
+
+.pergola-info{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #9F3C3C;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    
 }
