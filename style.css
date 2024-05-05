@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 .menu-principal {
@@ -12,6 +13,7 @@
     
     
 }
+
 
 .header-1 {
     display: flex; 
@@ -39,13 +41,52 @@
     height: 40px;
     display: flex;
     align-items: center;
-    margin-right: 200px; 
+    justify-content: space-between;
+    padding: 20px;
     gap: 10px;
 }
+
+.search-box {
+    margin-left: 10px;
+
+}
 .search-box a{
-    color: white;
+    display: block;
+    color: #fafafa;
+    padding: 20px;
 }
 
+.h1-prod{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.legenda-prod{
+    display: flex;
+    gap: 0px;
+    
+}
+.legenda-prod a{
+    display: block;
+    margin-left: 10px;
+    padding: 20px;
+    color: #9F3C3C;
+    
+}
+/* img{
+    max-width: 100%;
+    display: block;
+} */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.flex > div{
+    flex: 1 1 200px;
+}
 /* .search-box input[type="text"] {
     flex: 1;
     padding: 8px;
@@ -67,7 +108,6 @@
 .search-box i {
     
     font-size: 20px; 
-    margin-left: 10px; 
     color: #fafafa;
 }
 .banner {
@@ -90,10 +130,9 @@
 /*Pergola imagem */
 
 .secao-pergola{
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+    display: flex;
     margin: 82px;
+
  
 
 }
@@ -106,15 +145,17 @@
     color: #9F3C3C;
 }
 
-.favVazio {
+.favVazio img {
     display: flex;
     height: 35px;
-    margin-left: -600px;
+    margin-right: 20px;
+    margin-left: -20px;
 }
-.favPreenchido {
-    display: none;
+.favPreenchido img{
+    display: flex;
     height: 35px;
-    margin-left: -600px;
+    margin-left: -20px;
+    margin-right: 20px;
 }
 
 .avalia {
@@ -149,3 +190,108 @@
     background-color: #0056b3;
 }
 
+/* CSS TELA DE LOGIN */
+
+.body-login {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html-login{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #9F3C3C;
+    text-align: center; 
+}
+
+.logo-login {
+    width: 150px;
+    height: auto;
+    margin: 0 auto 20px; 
+}
+
+.container > h1 {
+    text-align: center;
+}
+
+.container > label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+   padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*CSS CONTATO*/
+.pergola-info{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #9F3C3C;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+}
+
+ 
+.logo-contato a img {
+    width: 150px;
+    height: auto;
+}
+
+.pergola-info > h1{
+    align-items: center;
+
+}
+
+.mais-info > a{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fafafa;
+
+}
+
+.corpo-index{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #9F3C3C;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    margin-top: 100px;
+}

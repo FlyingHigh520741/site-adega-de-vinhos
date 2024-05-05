@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>VINHERIA AGNELLO</title>
-    <link rel="icon" href="Vinheria.png">
+    <link rel="icon" href="/img/Vinheria.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
@@ -17,26 +17,31 @@
         <main>
             <div class="header-1">
                 <div class="logo">
-                    <a href="homepage.html"> <img src="Vinheria.png" alt="logo da vinheria"></a>
+                    <a href="/homepage.html"> <img src="/img/Vinheria.png" alt="logo da vinheria"></a>
+
                 </div>
-                <div class="search-box">
-                    <a href="/login.html">Login</a>
-                    <a href="contato.html">Contato</a>
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
+                <nav>
+                    <li class="search-box">
+                        <a href="login.html">Login</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="contato.html">Contato</a>
+                        <i class="fas fa-shopping-cart"></i>
+                    </li>
+                </nav>
+                
             </div>
         </main>
     </header>
     <section>
         <div class="secao-pergola">
 
-            <img src="transferir.png" alt="pergola">
+            <img src="/img/pergola.png" alt="pergola">
             <div onclick="favoritar()">
                 <div class="favVazio">
-                    <img src="favoritovazio.png" alt="favorito vazio">
+                    <img src="/img/favoritovazio.png" alt="favorito-vazio">
                 </div>
                 <div class="favPreenchido">
-                    <img src="favoritopreenchido.png" alt="favorito vazio">
+                    <img src="/img/favoritopreenchido.png" alt="favorito-vazio">
                 </div>
 
             </div>
@@ -56,7 +61,7 @@
                     <label for="desconto-aplicado">Desconto Aplicado</label>
                     <h1 id="desconto-aplicado"></h1>
                 </div>
-                <div>
+                <div class="mais-info">
                     <a href="pergolaInfo.html">Sugestões de acompanhamento</a>
                 </div>
 
@@ -80,7 +85,31 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
-
+    <h2 class="h1-prod">Produtos recomendados:</h2>
+    <section class="flex">
+        <div>
+            <a href="/pergola.html"> <img src="/img/pergola.png" alt="pergola" class="pergola"></a>
+            <div class="legenda-prod">
+                <a href="pergola.html">Pergola </a>
+                <a href="pergola.html">R$200,00</a>
+            </div>
+        </div>
+        <div>
+            <a href="/pergola.html"> <img src="/img/pergola.png" alt="pergola" class="pergola"></a>
+            <div class="legenda-prod">
+                <a href="pergola.html">Pergola </a>
+                <a href="pergola.html">R$200,00</a>
+            </div>
+        </div>
+        <div>
+            <a href="/pergola.html"> <img src="/img/pergola.png" alt="pergola" class="pergola"></a>
+            <div class="legenda-prod">
+                <a href="pergola.html">Pergola </a>
+                <a href="pergola.html">R$200,00</a>
+            </div>
+        </div>
+        
+    </section>
     <script src="script.js"></script>
 </body>
 
