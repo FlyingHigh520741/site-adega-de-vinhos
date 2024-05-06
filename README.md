@@ -2,6 +2,7 @@
 Vinheria Agnello  é um site fictício para os amantes de vinho, oferecendo uma variedade de recursos para os usuários, incluindo informações sobre vinhos, recomendações de combinações com alimentos, valor final da compra e contato.
 
 Estrutura do Projeto
+
 O projeto está estruturado da seguinte forma:
 
 contato.html: Esta página contém as informações de contato da empresa, incluindo número de telefone e E-mail.
